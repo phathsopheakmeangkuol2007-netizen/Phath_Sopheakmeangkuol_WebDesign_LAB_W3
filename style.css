@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 3em;
+    background-color: rgb(30, 23, 72);
+}
+.left {
+    flex-grow: 1;
+    background-color: rgba(32, 132, 132, 0.736);
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex-shrink: 0;
+    width: 10em;
+    background-color: rgba(149, 210, 44, 0.736);
+}
+.item {
+    height: 100px;
+    background-color: rgba(60, 185, 223, 0.736);
+}
